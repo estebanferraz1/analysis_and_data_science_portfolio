@@ -14,7 +14,6 @@
     <li><a href="#Estado del proyecto">Estado del proyecto</a></li>
     <li><a href="#Tecnologías utilizadas">Tecnologías utilizadas</a></li>
     <li><a href="#Problema de negocio">Problema de negocio</a></li>
-    <li><a href="#Configuración del ambiente">Configuración del ambiente</a></li>
     <li><a href="#Obtención de datos">Obtención de datos</a></li>
     <li><a href="#Bases de datos">Bases de datos</a></li>
     <li><a href="#Tratamiento de datos">Tratamiento de datos</a></li>
@@ -30,9 +29,10 @@
 
 
 <h2>Descripción del proyecto</h2>
+<p align="justify">
+Este es un proyecto realizado para el desarrollo de habilidades de analítica y ciencia de datos donde se realizó un análisis exhaustivo de los datos de una destacada tienda online situada en Brasil. Nuestro objetivo es responder a preguntas críticas de negocio, explorar profundamente el comportamiento en el mercado nacional y proporcionar insights que promuevan el crecimiento y la optimización de recursos dentro de la organización. A través de un enfoque analítico riguroso, buscamos identificar oportunidades, optimizar operaciones y fortalecer la posición de la tienda en su sector competitivo. Este análisis no solo clarificará los desafíos actuales sino que también, guiará las decisiones empresariales hacia horizontes futuros.
+</p>
 
-> Este es un proyecto realizado para el desarrollo de habilidades de analítica y ciencia de datos donde se realizó un análisis exhaustivo de los datos de una destacada tienda online situada en Brasil. Nuestro objetivo es responder a preguntas críticas de negocio, explorar profundamente el comportamiento en el mercado nacional y proporcionar insights que promuevan el crecimiento y la optimización de recursos dentro de la organización. A través de un enfoque analítico riguroso, buscamos identificar oportunidades, optimizar operaciones y fortalecer la posición de la tienda en su sector competitivo. Este análisis no solo clarificará los desafíos actuales sino que también, guiará las decisiones empresariales hacia horizontes futuros.
->
 
 <h2>Estado del proyecto</h2>
 
@@ -48,45 +48,20 @@
 <h2>Problema de negocio</h2>
 
 <table><tr><td> 
-Ante la necesidad imperativa de prever y optimizar el gasto de los usuarios, una prominente empresa de comercio electrónico ha iniciado la búsqueda de soluciones innovadoras. En este contexto, nuestro equipo de científicos de datos ha sido convocado para llevar a cabo un análisis exhaustivo del comportamiento de ventas de la empresa. Este estudio no solo abarcará las operaciones de ventas generales, sino que también se extenderá al desempeño de los vendedores, la dinámica de los productos y las tendencias emergentes del mercado.
-
+<p align="justify">
+Ante la necesidad imperativa de prever y optimizar el gasto de los usuarios, una prominente empresa de comercio electrónico ha iniciado la búsqueda de soluciones innovadoras. En este contexto, nuestro equipo de científicos de datos ha sido convocado para llevar a cabo un análisis exhaustivo del comportamiento de ventas de la empresa. Este estudio no solo abarcará las operaciones de ventas generales, sino que también se extenderá al desempeño de los vendedores, la dinámica de los productos y las tendencias emergentes del mercado.</p>
+<p align="justify">
 El objetivo es proporcionar un entendimiento profundo que permita a la empresa no solo anticipar las tendencias futuras, sino también implementar estrategias efectivas para maximizar los beneficios y mejorar la satisfacción del cliente. A través de este análisis, buscamos identificar patrones clave, detectar oportunidades de crecimiento y ofrecer recomendaciones basadas en datos que guíen a la empresa hacia decisiones estratégicas acertadas en su competitivo entorno de mercado.
+</p>
 </td></tr></table>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<h2>Configuración del ambiente</h2>
-
-> [!IMPORTANT] 
-> Se requiere importar las siguientes tecnologías librerías para poder trabajar con el proyecto
-> ```
->import geobr
->import pandas as pd
->import numpy as np
->import matplotlib.pyplot as plt
->import seaborn as sns
->from matplotlib.patches import FancyBboxPatch
->from matplotlib.offsetbox import OffsetImage, AnnotationBbox
->import matplotlib.dates as mdates
->from matplotlib.ticker import FuncFormatter
->import matplotlib.ticker as ticker
->import geopandas as gpd
->from matplotlib.patheffects import withStroke
->import requests
->from io import BytesIO
->import matplotlib.pyplot as plt
->from matplotlib.offsetbox import OffsetImage, AnnotationBbox
->from io import BytesIO
->from sqlalchemy import create_engine, MetaData, Table, inspect, text
-> ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <h2>Obtención de datos</h2>
-
+<p align="justify">
 Los datos analizados fueron obtenidos de fuentes internas, esta información se encontraba almacenada en diversos archivos .csv, esta data fue analizada, tratada y procesada para ser utilizada como fuente principal de información.
+</p>
 
 <h3>Bases de datos</h3>
 <br>
@@ -109,9 +84,9 @@ Los datos analizados fueron obtenidos de fuentes internas, esta información se 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h3>Tratamiento de datos</h3>
-
+<p align="justify">
 En general la información contenida en las bases de datos se encontraba limpia, facilitando el proceso de tratamiento, no se encontraron valores duplicados, escasa cantidad de valores nulos y los tipos de datos tampoco revistieron mayor complejidad en su tratamiento. Se identifican valores 'NAN' en columnas "PRODUCTO" Y "SKU", los datos faltantes son los dos últimos registros lo que podría indica que hubo algún problema en el proceso de registro de esos productos. Esto podría deberse a diversas razones, como errores en la entrada de datos, problemas técnicos durante el registro, o simplemente que esos productos no fueron registrados correctamente en la base de datos. Es importante corregir este tipo de problemas, ya que es fundamental para la integridad de la información. Una posible recomendación inicial sería revisar el proceso de registro de productos para identificar la causa de los posibles fallos y asegurarse de que todos los productos sean registrados de manera adecuada.
-
+</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h2>EDA: Análisis exploratorio de los datos</h2>
@@ -138,7 +113,7 @@ En general la información contenida en las bases de datos se encontraba limpia,
 
 <h3>Tratamiento de datos con SQLite</h3>
 
-![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/5c0591f9-632d-4aa1-9936-1dd5fc0556d9)
+<img src="https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/5c0591f9-632d-4aa1-9936-1dd5fc0556d9" alt="Tratamiento de datos SQLite" width="500" height="auto">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,7 +121,8 @@ En general la información contenida en las bases de datos se encontraba limpia,
 
 <h3>¿Cual es el Top 5 productos más vendidos históricamente?</h3>
 
-![](https://i.imgur.com/g5DYZYe.png)
+<img src="https://i.imgur.com/g5DYZYe.png" alt="Top 5 productos" width="500" height="auto">
+
 
 <h4>Conclusión</h4>
 
@@ -157,7 +133,7 @@ es el producto **Vestido Nude Reta** llegando a los **\$301K**
 
 <h3>¿Cual es la evolución histórica de las ingresos netos?</h3>
 
-![](https://i.imgur.com/JzS2aZa.png)
+<img src="https://i.imgur.com/JzS2aZa.png" alt="Evolución ingresos netos" width="500" height="auto">
 
 <h4>Conclusión</h4>
 
@@ -169,7 +145,7 @@ venta de algunas marcas famosas.
 
 <h3>¿Cuáles son los ingresos netos por vendedor por año?</h3>
 
-![](https://i.imgur.com/2ctUaAP.png)
+<img src="https://i.imgur.com/2ctUaAP.png" alt="Ingresos netos por vendedor por año" width="500" height="auto">
 
 <h4>Conclusión</h4>
 
@@ -181,7 +157,7 @@ y **Daniel** sobrepasando los **\$5M** en el año en cuestión.
 
 <h3>¿Cuáles son las ciudades que proporcionan mayores ingresos netos?</h3>
 
-![](https://i.imgur.com/bIvV7fg.png)
+<img src="https://i.imgur.com/bIvV7fg.png" alt="Ingresos netos por ciudad" width="500" height="auto">
 
 <h4>Conclusión</h4>
 
@@ -194,11 +170,13 @@ debe mejorar las acciones de ventas.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h3>Resumen y recomendaciones</h3>
-
-* El análisis de la información precedentemente expuesta refleja importantes observaciones sobre la problemática de negocios y su evolución histórica que permite influir en la toma de decisiones estratégicas, con el objeto de impulsar el rendimiento.
-* Se analizó la evolución histórica de las ventas por productos, el comportamiento por vendedor y la distribución geográfica a nivel nacional, lo que permite tener un conocimiento cabal del desarrollo histórico de las ventas y la representatividad asociada a cada vendedor y región del país.
+<p align="justify">
+* El análisis de la información precedentemente expuesta refleja importantes observaciones sobre la problemática de negocios y su evolución histórica que permite influir en la toma de decisiones estratégicas, con el objeto de impulsar el rendimiento.</p>
+<p align="justify">  
+* Se analizó la evolución histórica de las ventas por productos, el comportamiento por vendedor y la distribución geográfica a nivel nacional, lo que permite tener un conocimiento cabal del desarrollo histórico de las ventas y la representatividad asociada a cada vendedor y región del país.</p>
+<p align="justify">  
 * Con el objeto de impulsar el rendimiento, mejorar la eficiencia y reducir costos se sugiere implementar diversas campañas promocionales como la llevada a cabo el día 24/11 (Black Friday) distribuidas a lo largo del año. Capacitar o fortalecer las competencias de los vendedores menos eficientes. Eliminar la distribución de productos en las regiones menos rentables, fortalecer y sobreponderar la distribución logística en las regiones que representan menores costes de envío y mayor rentabilidad para la empresa.
-
+</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h2>Desarrolladores del proyecto</h2>
@@ -211,17 +189,17 @@ debe mejorar las acciones de ventas.
 
 <h2>Licencia</h2>
 
-Este proyecto está bajo la Licencia MIT - mira el archivo LICENSE.md para detalles
+Este proyecto está bajo la Licencia MIT - mira el archivo LICENSE.md para mas detalles
 
-> [!CAUTION]
+> [!NOTE]
 > 
-> Utilizar con fines educativos :octocat:
+> Utilizar con fines educativos.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h2>Contacto</h2>
 
-Esteban Ferraz - estebanferraz@
+Esteban Ferraz - estebanferraz@outlook.cl
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -229,11 +207,11 @@ Esteban Ferraz - estebanferraz@
 
 Un agradecimiento especial a Alejandro Gamarra y Silvia Branco
 
-![BOOTCAMP XPERIENCE](https://bootcampxperience.com/)
+[BOOTCAMP XPERIENCE](https://bootcampxperience.com/)
+
 [![](https://img.shields.io/youtube/channel/subscribers/UCuerQOTskuNkddcT738357g?style=for-the-badge&logo=youtube&label=ElProfeAlejo)](https://www.youtube.com/@ElProfeAlejo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 
