@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <h1 align="center"> FINANCIAL FRAUD DETECTION </h1>
-<h2>Proyecto Machine Learning</h2>
+<h2>Machine Learning Project</h2>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
